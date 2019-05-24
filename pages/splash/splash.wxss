@@ -1,0 +1,92 @@
+/* pages/splash/splash.wxss */
+page{
+  height: 100%;
+  width: 100%;
+}
+.confirm-btn {
+  font-size: 13pt;
+  line-height: 85rpx;
+  height: 85rpx;
+  background: #cd96cd;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  right: 50px
+}
+
+.test-bg{
+    width: 100%;
+    height: 100%;
+    background-color: #70c7da;
+    position: relative
+  }
+  .bg-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2)
+  }
+/* -------弹窗css------- */
+
+.zhezhao {
+  display: block;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.aa{
+  display: none
+}
+.bb{
+  display: block
+}
+
+.model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 30%;
+  left: 10%;
+  width: 80%;
+  height: 300rpx;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.modelTitle {
+  font: 36rpx/46rpx '微软雅黑';
+  color: #141414;
+  border-bottom: 1px solid #e5e5e6;
+  width: 100%;
+  text-align: center;
+  padding: 20rpx 0;
+}
+
+.modelBody {
+  padding: 0 60rpx;
+  font: 32rpx/46rpx '微软雅黑';
+  margin-top: 20rpx;
+  color: #999;
+}
+
+.agree {
+  background: #fff;
+  color: green;
+}
+
+.agree::after {
+  border: 1px solid #fff;
+}
+
+/* -------弹窗css-end------- */

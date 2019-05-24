@@ -1,0 +1,29 @@
+<!--pages/map/map.wxml-->
+<map 
+id="map" 
+longitude="128.048583" 
+latitude="45.946875" 
+scale="18" 
+controls="{{controls}}" 
+bindcontroltap="controltap" 
+markers="{{markers}}" 
+bindmarkertap="markertap" 
+polyline="{{polyline}}" 
+bindregionchange="regionchange" 
+show-location style="width: 100%; height: {{windowHeight}}px;">
+<cover-view class='datetime'>
+        <cover-view class='box'>
+            <cover-view class="name css13610f7ae66601">
+                <cover-view class="fl">明强 & 马巧</cover-view>
+            </cover-view>
+            <cover-view class="date css13610f7ae66601">
+                <cover-view>谨定于 2019年01月01日</cover-view>
+                <cover-view>农历 2018年十一月廿六 举办婚礼</cover-view>
+                <cover-view bindtap="markertap">地址：黑龙江省哈尔滨市木兰县</cover-view>
+                <cover-view>恭请您的光临</cover-view>
+            </cover-view>
+            <!-- <image class="we" src='/images/we.png'></image> -->
+        </cover-view>
+    </cover-view>
+</map>
+

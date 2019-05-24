@@ -1,0 +1,86 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner_style {
+  height: 400px;
+  /* border-radius: 10px; */
+}
+
+.banner_image_style {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10px; */
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+swiper {
+  width: 100%;
+  height: "{{windowHeight}}"px;
+}
+
+swiper image {
+  width: 100%;
+  height: "{{windowHeight}}"px;
+}
+
+.confirm-btn {
+  font-size: 13pt;
+  line-height: 85rpx;
+  height: 85rpx;
+  background: #cd96cd;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  margin: 80rpx 3%;
+}
+
+.background_music{
+  position: fixed;
+  top: 20rpx;
+  right: 10rpx;
+  z-index: 10001;
+  width: 100rpx;
+}
+.musicImg{
+  width: 60rpx;
+  height: 60rpx;
+}
+.music_icon{
+  animation:musicRotate 3s linear infinite;
+}
+.music_play{
+  width:28rpx;
+  height: 60rpx;
+  margin-left:-5px;
+  transform-origin: top;
+  -webkit-transform:rotate(20deg)
+}
+.playImg{
+  animation:musicStop 1s linear forwards ;
+}
+.pauseImg{
+  animation:musicStart 1s linear forwards ;
+}
+@-webkit-keyframes musicRotate{
+from{-webkit-transform:rotate(0deg);}
+to{-webkit-transform:rotate(360deg);}
+}

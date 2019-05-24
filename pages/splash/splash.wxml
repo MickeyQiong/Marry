@@ -1,0 +1,16 @@
+<!--pages/splash/splash.wxml-->
+<view class="test-bg">
+<image class="bg-image" mode="scaleToFill" src="http://bmob-cdn-22119.b0.upaiyun.com/2018/11/23/32771e3c404d4bbe80ebdced201e7779.jpg"/>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="confirm-btn" bindtap="bindViewTap">点击进入</button>
+</view>
+<view wx:if="{{showModel}}" class="zhezhao">
+  <view class="model">
+    <view class="modelTitle">
+      获取微信授权信息
+    </view>
+    <view class="modelBody">微信登录需要获取您的用户信息，请前往设置</view>
+    <view class="btns">
+      <button open-type="getUserInfo" class="agree" bindgetuserinfo="getUserInfo" lang="zh_CN">去授权</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/splash/splash",
+    "pages/index/index",
+    "pages/map/map",
+    "pages/bless/bless",
+    "pages/bless/chat/chat",
+    "pages/bless/blessDetail/blessDetail",
+    "pages/morepic/morepic",
+    "pages/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/tab/ic_home_normal.png",
+        "selectedIconPath": "image/tab/ic_home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "image/tab/ic_nav_normal.png",
+        "selectedIconPath": "image/tab/ic_nav_select.png",
+        "text": "导航"
+      },
+      {
+        "pagePath": "pages/bless/bless",
+        "iconPath": "image/tab/ic_heart_normal.png",
+        "selectedIconPath": "image/tab/ic_heart_select.png",
+        "text": "祝福"
+      }
+    ],
+    "position": "bottom",
+    "selectedColor": "#CD96CD",
+    "backgroundColor": "#fff",
+    "color": "#5f5f5f"
+  },
+  "enablePullDownRefresh": false
+}

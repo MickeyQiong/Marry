@@ -1,0 +1,11 @@
+<!--logs.wxml-->
+<view class="schoollist">
+  <block wx:for="{{items}}" wx:key="item">
+    <view class="school-list" bindtap='lookImage' data-url="{{item.url}}">
+      <view class="school-list-info" index="{{index}}">
+        <image class="school-list-photo" src="{{item.url}}" />
+        <!-- <text class="school-list-desc">{{item.content}}</text> -->
+      </view>
+    </view>
+  </block>
+</view>
